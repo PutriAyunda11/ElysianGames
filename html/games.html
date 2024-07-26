@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysian Gamer</title>
+
+    <!-- CSS yang dipakai -->
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/gamess.css">
+
+    <!-- icon yang dipakai  -->
+    <link rel="shortcut icon" href="../asset/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- font yang dipakai  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- start header  -->
+  <header>
+    <!-- logo dan nama web -->
+   <div id="nav1">
+        <img src="../asset/logo.jpg" class="lgo lgo2"  />
+        <h1 class="jud">Elysian<span class="gmss">Games</span></h1>
+    </div>
+   <!-- Search yang muncul di header  -->
+       <span class="search" id="serr">
+        <span class="material-symbols-outlined" id="searchButton">search</span>
+        <input class="search-input" type="search" placeholder="search games ..." id="searchInput">    
+    </span>
+   <!-- navigasi di header  -->
+   <nav id="inn">
+        <span class="boxx">
+            <span class="material-symbols-outlined"><a href="index.html" class="simb">home</a></span>
+            <a href="index.html" class="aa">HOME</a>
+        </span>
+        <span class="boxx">
+            <span class="material-symbols-outlined"><a href="fav.html" class="simb">favorite</a></span>
+            <a href="fav.html" class="aa">Favorite</a>
+        </span>
+        <span class="boxx">
+            <span class="material-symbols-outlined"><a href="games.html" class="simb">stadia_controller</a></span>
+            <a href="games.html" class="aa">GAMES</a>
+        </span>
+        <span class="boxx">
+            <span class="material-symbols-outlined"><a href="login.html" class="simb">login</a></span>
+            <a href="login.html" class="aa">LOGIN</a>
+        </span>
+   </nav>
+   <!-- end navigasi  -->
+
+   <!-- menu toggle yang muncul ketika responsive dari 868px -->
+   <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+ </header>
+ <!-- end header  -->
+
+    <!-- start section  -->
+    <section>
+        <!-- search yang muncul di responsive 480px <  -->
+        <div  id="serrA" class="serrA2">
+            <span class="searchA">
+                <span class="material-symbols-outlined" id="searchButtonA">search</span>
+                <input class="search-inputA" type="search" placeholder="search games ..." id="searchInputA">    
+            </span>    
+        </div>
+
+        <!-- menampung data hasil search  -->
+        <div class="cari hiddsrc">
+            <div class="cari2">
+                <h3 id="searchResultsMessage"></h3>
+                <div id="results">
+                </div>
+            </div>
+        </div>
+
+        <!-- Categori game  -->
+        <div class="judcatt">
+            <p class="forbx">Games by category & sorted</p>
+        </div>    
+        <div class="categ">
+            <p class="klkctt">MMORPG</p>
+            <p class="klkcrr">CARD</p>
+            <p class="klkst">STRATEGY</p>
+            <p class="klksp">SPORTS</p>
+        </div>
+        <div class="clctt claj">
+            <p class="kett">by mmorpg</p>
+            <div id="catt">
+            </div>   
+        </div>
+        <div class="clcrr clajB">
+            <p class="kett">By card</p>
+            <div id="cdd">
+            </div>     
+        </div>
+        <div class="clstt clajC">
+            <p class="kett">By strategy</p>
+            <div id="stt">
+            </div>     
+        </div> 
+        <div class="clspp clajD">
+            <p class="kett">By sports</p>
+            <div id="spp">
+            </div>     
+        </div> 
+
+        <!-- menampung Data game yang muncul  -->
+        <div class="judList">
+            <p class="forbx">Live Games Lists</p>
+        </div>
+        <div id="list">
+        </div>
+    </section>
+    <!-- end section  -->
+
+    <!-- start footer  -->
+    <footer class="ftft">
+        <div class="bagfott">
+          <div id="lgfot">
+            <a>Contact Us:</a>
+            <a href="https://www.facebook.com/gustiaraa.ii"><img src="https://cdn-icons-png.flaticon.com/128/2175/2175193.png" alt="fb" class="fotmg"/></a>
+            <a href="https://www.instagram.com/pppp_yyygstrr?igsh=MWUzeXNkaTQ4a3U0eA=="><img src="https://cdn-icons-png.flaticon.com/128/87/87390.png"alt="ig" class="fotmg"/></a>
+            <a href="https://t.me/putriayundaa"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111710.png" alt="tt" class="fotmg"/></a>
+            <a href="https://cdn-icons-png.flaticon.com/128/3670/3670025.png"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670025.png" alt="wa" class="fotmg"/></a>
+          </div>
+          <div id="mggft">
+            <img src="../asset/logo.jpg" alt="" class="mgfott" />
+            <h3 class="tulis">Elysian<span class="tuliss">Games</span></h3>
+          </div>
+        </div>
+        <hr />
+        <p class="afthr">&#169; PutriAyunda All Right Reserved</p>
+      </footer>
+    <!-- end footer  -->
+    
+    <!-- javascript yang dipakai  -->
+    <script src="../javascript/src-games.js"></script>
+    <script src="../javascript/event.js"></script>
+</body>
+</html>

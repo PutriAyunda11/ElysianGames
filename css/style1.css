@@ -1,0 +1,228 @@
+
+/* untuk pengaturan awal html  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* pengaturan body  */
+body{
+    background-color: #91C8E4;
+    overflow-x: hidden;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;    
+    color: white;
+}
+
+/* start pengaturan header  */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color:#4682A9;
+}
+
+/* navigasi  */
+#nav1{
+    display: flex;
+    align-items: center;
+}
+
+/* LOGO  */
+.lgo{
+    width: 70px;
+    height: auto;
+    margin: 0 0 0 60px;
+    border-radius: 50%;
+}
+.jud{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    padding: 0 10px;
+    letter-spacing: 4px;
+    color: #F6F4EB;
+}
+.gmss{
+    color: #749BC2;
+    text-shadow: 0px 2px 4px #0d0e0f;
+
+}
+
+/* BOX SEARCH untuk di games.html */
+.search{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top:1.5% ;
+    border-radius: 10px;
+    background: #f6f6f68f;
+}
+#serrA{
+    display: none;
+}
+.searchA{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    padding: 5px;
+    margin-top:0 ;
+    border-radius: 10px;
+    background: #f6f6f68f;
+}
+/* search inputan  */
+.search-input, .search-inputA{
+    font-size: 13px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+.search-input::placeholder, .search-inputA::placeholder,
+.search-icon{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+
+/* tampung data hasil search  */
+div.hidscc{
+    display: none;
+}
+
+/* pengaturan navigasi tampil di header  */
+#inn{
+    display: flex;
+    align-items:center ;
+    cursor: pointer;
+}
+.boxx{
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.639);
+}
+.aa{
+    margin: 5px;
+}
+.aa:hover{
+    color: white;
+}
+.simb:hover{
+    color: white;
+}
+
+
+/* hamburger menu atau menu toggle */
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    margin: 60px;
+}
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    opacity: 0.8;
+    left: -5px;
+    top: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+.menu-toggle span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background-color:white;
+    transition: all 0.5s;
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-1px, -1px);
+    background-color: black;
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-1px, 0);
+    background-color: black;
+}
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* start pengaturan footer  */
+footer{
+    background-color:#4682A9;
+    font-size: 15px;
+    padding: 2%;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.bagfott{
+    font-size: 20px;
+    margin: 0 0 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#lgfot{
+    display: flex;
+    padding: 1%;
+}
+.mgfott{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+.fotmg{
+    width: 25%;
+}
+.fotmg:hover{
+    transform: scale(1.05);
+}
+.kata:hover{
+    color: black;
+    cursor: pointer;
+}
+.tulis{
+    font-size: 18px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.tuliss{
+    color: #749BC2;
+    text-shadow: 0px 2px 4px #0d0e0f;
+}

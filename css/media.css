@@ -1,0 +1,820 @@
+@media screen and (max-width:1800px){
+    /* mengatur pembungkus footer login  */
+    div.bkLog{
+        padding: 57% 0 0;
+    }
+    /* mengatur pembungkus 'Games by category & sorted' di games  */
+    div.judcatt{
+        padding-top: 12%;
+    }
+}
+@media screen and (max-width:1281px){
+    /* mengatur 'Games by category & sorted' di games  */
+    .forbx{
+        padding: 30px;
+    }
+    /* mengatur box tampilan login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        margin-left: 22%;
+        margin-top: 14%;
+        width:55%;
+    }
+    /* mengatur pembungkus footer login  */
+    div.bkLog{
+        padding: 50% 0 0;
+    }
+    /* mengatur pembungkus tampil game di favorite  */
+    div#bukk{
+        padding:11% 1.5% 1%;
+    }
+    /* footer di favorite  */
+    footer.ftft{
+        margin: 34% 0 0;
+        min-height: 100%;
+    }
+    /* footer di datee  */
+    footer#ftdtt{
+        margin: 40% 0 -1px;
+    }
+}
+
+@media screen and (max-width:1200px){ 
+    /* mengatur 'Games by category & sorted' di games  */
+    .forbx{
+        padding: 50px;
+    }
+    /* mengatur pembungkus tampil game di favorite  */
+    div#bukk{
+        padding:15% 1.5% 1%;
+    }
+    /* mengatur footer di seluruh html  */
+    footer{
+        padding: 3%;
+        margin-top: 40vh;
+    }
+    /* mengatur pembungkus footer login  */
+    div.bkLog{
+        padding: 78vh 0 0;
+        height: 13vh;
+    }
+    /* mengatur box login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        margin-top: 30vh;
+        width:68%;
+        margin-left: 17%;
+    }
+    /* mengatur footer di datee  */
+    footer#ftdtt{
+        margin-top: 40vh;
+        
+    }
+    /* mengatur footer di favorite  */
+    footer.ftft{
+        top: 47vh;
+    }
+    /* mengatur pembungkus di datee  */
+    div#isian{
+        padding: 15% 0 3%;
+    }
+    /* mengatur logo gambar di header  */
+    .lgo{
+        width: 50px;
+        margin: 0 0 0 30px;
+    }
+    /* mengatur dibagian home yang setelah header  */
+    div#home{
+        font-size: 18px;
+    }
+    /* mengatur isi di #home */
+    h1.jud2, h1.jj{
+        font-size: 35px;
+    }
+    /* mengatur pembungkus gambar dan tittle game yang dari api  */
+    div.objek{
+        width: 30%;
+        margin: 10
+        px 0;
+    }
+    /* gambar game dari api di index  */
+    img.mages{
+        width: 100%;
+    }
+    /* judul game di datee  */
+    h1.titt{
+        font-size: 30px;
+    }
+    /* pembungkus di datee */
+    div.diveyy, div.lagiiA{
+        font-size: 20px;
+    }
+    /* mengatur div pembungkus Get yang diklik di datee */
+    div.creatt{
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+    /* ukuran GET di datee  */
+    p.pp{
+        margin-top: -5px;
+    }
+    /* pembungkus game dan tittle dari api di games  */
+    div.dvctt{
+        margin: 5px;
+    }
+}
+
+ @media screen and (max-width:930px){
+    /* pembungkus kalimat yg tampil setelah header di index  */
+    #home{
+        margin-top: 9%;
+    }
+    /* games by platfrom  */
+    .jj{
+        padding-top: 7%;
+    }
+    /* logo du header  */
+    .lgo{
+        width: 50px;
+        margin: 0 0 0 15px;
+    }
+    /* pembungkus game dan tittle dari api di index  */
+    div.objek{
+        width: 40%;
+    }
+    /* gambar game dari api di index  */
+    img.mages{
+        width: 100%;
+    }
+    /* search di games  */
+    span.search{
+        margin-top:2px ;
+    }
+    /* box di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 35%;
+    }
+ }
+ 
+@media screen and (max-width: 868px){
+    /* pembungkus logo dan judul di header  */
+    #nav1{
+        margin:0 30px;
+    }
+    /* navigasi yang di header  */
+    nav{
+        position: absolute;
+        right: 0;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        top: 0;
+        height: 100vh;
+        background-color:#4682A9;
+        z-index: -3;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    /* logo di header  */
+    .lgo{
+        width: 50px;
+    }
+    /* filter untuk nav yang dibungkus di menu-toggle  */
+    nav.slide{
+        transform: translateX(0);
+    }
+    /* menampilkan menu toggle yang sebelumnya di none */
+    .menu-toggle{
+        display: flex;
+    }
+    /* pembungkus kalimat di tampilan index  */
+    #home{
+        margin-top: 12%;
+    }
+    /* header di seluruh html  */
+    header{
+        padding: 0;
+    }
+    /* judul games by platform  */
+    .jj{
+        padding-top: 10%;
+    }
+    /* pembungkus di favorite  */
+    div#bukk{
+        padding:20% 1.5% 1%;
+    }
+    /* pembungkus judul categori di games  */
+    div.judcatt{
+        padding:18% 2% 1%;
+    }
+    /* pembungkus di datee  */
+    div#isian{
+        padding: 20% 0 3%;
+    }
+    /* tamoung games yang ditampilkan di index  */
+    section#gambar{
+        margin: 1% 0;
+    }
+    /* search di games  */
+    span.search{
+        margin-top:6% ;
+    }
+    /* box di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    /* pembungkus di datee  */
+    div.creatt{
+        padding: 12px 50px;
+        margin: 5px 50px;
+        font-size: 18px;
+    }
+    /* pembungkus gambar dan tittle di index  */
+    div.objek{
+        width: 40%;
+    }
+    /* gambar data di index  */
+    img.mages{
+        width: 100%;
+    }
+    /* filter untuk pembungkus game dan tittle di home  */
+    div.objek:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        background-color:#4682A9;
+        color: aliceblue;
+    }    
+    /* pembungkus gambar dan tittle di games  */
+    div.dvctt{
+        width: 40%;
+    }
+    /* iamge dari api di games  */
+    img.kelas{
+        width: 100%;
+    }
+    /* pembungkus data dari api di favorite  */
+    div.favorite-game{
+        width: 40%;
+        margin: 10px;
+        padding: 5px;
+    }
+    /* image di favorite  */
+    img.mgs{
+        width: 100%;
+    }
+    /* sosial media di footer  */
+    div#lgfot{
+        font-size: 15px;
+        align-items: center;
+    }
+    /* pembungkus data dari api di datee  */
+    div.diveyy, div.lagiiA{
+        font-size: 18px;
+    }
+    /* judul game di datee  */
+    h1.titt{
+        font-size: 27px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    /* pembungkus logo dan judul di header  */
+    #nav1{
+        margin:0;
+        width: 100%;
+        font-size: 25px;
+    }
+    /* mengatur logo gambar di header  */
+    .lgo{
+        width: 30px;
+        margin: 0 0 0 30px;
+    }
+    /* mengatur span menu toggle  */
+    .menu-toggle{
+        margin: 30px;
+    }
+    /* pembungkus search  */
+    #serr{
+        width: 70%;
+        margin-top:4%;
+    }
+    /* pembungkus kalimat di index  */
+    div#home{
+        padding-top: 80px;
+        font-size: 13px;
+        margin-top: 70px;
+    }
+    /* judul yng dibungkus home  */
+    h1.jud2{
+        font-size: 28px;
+    }
+    /* judul games by platform  */
+    h1.jj{
+        padding-top: 6%;
+        font-size: 20px;
+    }
+    /* pembungkus data dari api yng tampil di favorite   */
+    div.favorite-game{
+        width: 40%;
+        margin: 10px;
+        padding: 5px;
+    }
+    /* gambar dari api untuk di favorite  */
+    img.mgs{
+        width: 100%;
+    }
+    /* nama web di header  */
+    h1.jud{
+        font-size: 25px;
+    }
+    /* footer di seluruh html  */
+    footer{
+        margin: 6rem 0 0;
+    }
+    /* sosial media di footer  */
+    div#lgfot{
+        font-size: 15px;
+        align-items: center;
+    }
+    /* box di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:85%;
+        height: auto;
+        margin-left: 9%;
+        margin-top: 33%;
+    }
+    /* pembungkus image dan tittle yang dari api di index  */
+    div.objek{
+        font-size: 15px;
+    }
+    /* tulisan favorites games di games  */
+    h1.hii{
+        font-size: 23px;
+        margin: 0 4%;
+    }
+    /* inputan di login  */
+    input.inpt, input.inpt1{
+        height: 30px;
+    }
+    /* pengaturan nama web di box login  */
+    p.loginame, h3.alg{
+        font-size: 16px;
+    }
+    /* kalimat di box login  */
+    p.alg1{
+        font-size: 14px;
+    }
+    /* pembungkus bagian bagian yang tampil di datee  */
+    div.diveyy, div.lagiiA{
+        font-size: 15px;
+    }
+    /* pengatur tittle/ judul di data yang tampil di datee  */
+    h1.titt{
+        font-size: 25px;
+    }
+    /* pengaturan icon favorite  */
+    span.agus.agus2{
+        font-size: 43px;
+    }
+    /* tampung untuk get dan icon di datee  */
+    div.tampung{
+        padding: 10px 0 0 21px;
+        font-size: 15px;
+    }
+    /* ukuran GET di datee  */
+    p.pp{
+        margin-top: 2.5px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    /* pembungkus search  */
+    span#serr{
+        margin-top:3.5% ;
+    }
+    /* pengatur tag untuk menampilkan message yang kita cari  */
+    h3#searchResultsMessage{
+        font-size: 20px;
+    }
+    /* mengatur 'Games by category & sorted' di games  */
+    p.forbx{
+        font-size: 25px;
+    }
+    /* category yang di klik  */
+    p.klkctt, p.klkcrr, p.klkst, p.klksp{
+        font-size: 15px;
+        padding: 3px 5px;
+    }
+    /* keterangan by category yang muncul  */
+    p.kett{
+        font-size: 18px;
+    }
+    /* judul game yang tampil di games  */
+    p.gtw{
+        font-size: 17px;
+    }
+    /* tampungan kata get di datee */
+    div.creatt{
+        height: 55%;
+        padding: 7px 30px;
+        margin: 4px 18px;
+    }
+    /* tampung untuk get dan icon di datee  */
+    div.tampung{
+        padding: 6px 0 0 21px;
+    }  
+    /* tampung hasil serach  */
+    div.cari{
+        padding-top: 21%;
+    }
+    /* about yang di klik di index  */
+    p.klk,p.klkk,p.klkk1{
+        font-size: 15px;
+    }
+    /* text yang muncul ketika about di klik di index  */
+    p.togg, p.toggl, p.toggll{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    /* judul games by platform di index  */
+    h1.jj{
+        padding-top: 55px;
+    }
+    /* tampung untuk get dan icon di datee  */
+    div.tampung{
+        padding: 10px 0 0 21px;
+    } 
+    /* tampungan kata get di datee */
+    div.creatt{
+        height: 63%;
+        font-size: 15px;
+        margin: 2px 15px;
+    }
+    /* box yang tampil di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:95%;
+        height: auto;
+        margin-left: 2%;
+        margin-top: 63%;
+    }
+    /* logo yang ada di footer  */
+    img.mgfott{
+        width: 20%;
+    }
+    /* tulisan yang ada difooter */
+    h3.tulis, div#lgfot{
+        font-size: 13px;
+    }
+    /* tulisan setelah horizontal  */
+    p.afthr{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    /* footer di semua html  */
+    footer{
+        width: 94%;
+        height: auto;
+        margin-top:20rem;
+    }
+    /* navigasi yang di header  */
+    nav{
+        position: absolute;
+        right: 0;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 0;
+        height: 105vh;
+        background-color:#4682A9;
+        z-index: -3;
+        transform: translateX(100%);
+        transition: all 1s;
+
+    }
+    /* logo yang di header  */
+    .lgo{
+        width: 30px;
+        margin: 0 0 0 17px;
+    }
+    /* klik category di games  */
+    p.klkctt, p.klkcrr, p.klkst, p.klksp{
+        padding: 5px 10px;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    /* pembungkus kalimat di index home awal  */
+    div#home{
+        padding-top: 40px;
+        font-size: 13px;
+        margin-top: 70px;
+    }
+    /* menyembunyikan serach yang di header  */
+    .search{
+        display: none;
+    }
+    /* menampilkan search setelah header  */
+    #serrA{
+        display: flex;
+        padding-top: 20%;
+        margin-left: 14%;
+    }
+    /* mengatur search setelah header  */
+    .searchA{
+        width: 80%;
+        height: 10%;    
+    }
+    /* judul category  */
+    div.judcatt{
+        padding-top: 2%;
+    }
+    /* footer di login  */
+    div.bkLog{
+        margin:0;
+        padding: 115% 0 0;
+    }
+    /* box untuk di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 30%;
+    }
+    /* inputan dilogin  */
+    input.inpt, input.inpt1{
+        height: 25px;
+        width: auto;
+        padding-left: 2px;
+    }
+    /* judul games by platform di index  */
+    h1.jj{
+        padding-top: 18%;
+        font-size: 25px;
+    }
+    /* judul yang di games  */
+    p.gtw{
+        font-size: 15px;
+    }
+    /* icon favorite  */
+    span.agus.agus2{
+        font-size: 25px;
+    }
+    /* judul di favorite  */
+    p.ttfav{
+        font-size: 13px;
+    }
+    /* tampung data hasil cari  */
+    div.cari{
+        padding-top: 18px;
+    }
+}
+
+@media screen and (max-width:431px){
+    /* tampungan kata get di datee */
+    div.creatt{
+        width: 10%;
+        height: auto;
+        margin: 0 21px;
+    }
+    /* tulisan nama web di home index  */
+    h1.jud2{
+        font-size: 19px;
+    }
+    /* pembungkus kalimat di index home awal  */
+    div#home{
+        padding-top: 40px;
+        font-size: 11px;
+        margin-top: 70px;
+    }
+    /* pembungkus di datee  */
+    div.diveyy, div.lagiiA{
+        font-size: 10px;
+    }
+    /* pengatur tittle/ judul di data yang tampil di datee  */
+    h1.titt{
+        font-size: 14px;
+    }
+    /* untuk category yang di klik  */
+    p.klkctt, p.klkcrr, p.klkst, p.klksp{
+        padding: 5px 10px;
+        margin: 0 8px;
+        font-size: 18px;
+    }
+    /* untuk search yang tampil dibawah header games  */
+    #serrA{
+        display: flex;
+        padding-top: 22%;
+        margin-left: 15%;
+    }
+    /* untuk judul category di games  */
+    div.judcatt{
+        padding-top: 2%;
+    }
+    /* pembungkus icon fav dan get di datee  */
+    div.tampung{
+        padding: 10px 0 0 1px;
+        font-size: 10px;
+    }  
+    /* footer di datee */
+    footer#ftdtt{
+        margin-top: 99%;
+    }
+    /* text yang ada di login  */
+    div.textt,a.fggpp, a.fggpp1, a.fggppA{
+        font-size: 12px;
+    }
+    /* tulisan untuk search  */
+    h3#searchResultsMessage{
+        padding-top: 10px;
+    }
+    /* search  */
+    div.cari{
+        padding-top: 15px;
+    }
+    /* tulisan favorite games  */
+    h1.hii{
+        font-size: 18px;
+        margin: 0 4%;
+    }
+    /* games by platform  */
+    h1.jj{
+        padding-top: 13%;
+        font-size: 23px;
+    }
+    /* klik di index  */
+    p.klk,p.klkk,p.klkk1{
+        font-size: 12px;
+    }
+    /* hasil klik yang di index  */
+    p.togg, p.toggl, p.toggll{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:391px){
+    /* pembungkus search dibawah header  */
+    div#serrA{
+        padding-top: 28%;
+        margin-left: 15%;
+    }
+    /* judul category games  */
+    div.judcatt{
+        padding-top: 1%;
+    }
+    /* klik category di games  */
+    p.klkctt, p.klkcrr, p.klkst, p.klksp{
+        padding: 5px 10px;
+        margin: 0 7px;
+        font-size: 10px;
+    }
+    /* pembungkus footer  */
+    div.bkLog{
+        margin:0;
+        padding: 160% 0 0;
+    }
+    /* box yang tampil di login  */
+    div.boxx111, div.boxx22, div.boxx33{
+        width:95%;
+        height: auto;
+        margin-left: 2%;
+        margin-top: 60%;
+    }
+    /* text yang ada di login  */
+    div.textt,a.fggpp, a.fggpp1, a.fggppA{
+        font-size: 9px;
+    }
+    /* klik create acount  */
+    h3.alg{
+        font-size: 14px;
+    }
+    /* keterangan klik forgot   */
+    p.alg1{
+        font-size: 10px;
+    }
+    /* footer di datee */
+    footer#ftdtt{
+        margin-top: 135%;
+    }
+    /* tulisan hasil search  */
+    h3#searchResultsMessage{
+        padding-top: 5px;
+    }
+    /* search  */
+    div.cari{
+        padding-top: 10px;
+    }
+    /* tampung fav  */
+    div#bukk{
+        padding-top: 30%;
+    }
+    /* tulisan favorite games  */
+    h1.hii{
+        font-size: 18px;
+        margin: 0 8%;
+    }
+    /* tulisan di footer  */
+    h3.tulis, div#lgfot{
+        font-size: 10px;
+    }
+    /* tulisan footer setelah horizontal  */
+    p.afthr{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    /* games by platform  */
+    h1.jj{
+        padding-top: 20%;
+        font-size: 18px;
+    }
+    /* tulisan favorite games  */
+    h1.hii{
+        font-size: 18px;
+    }
+    /* mengatur 'Games by category & sorted' di games  */
+    p.forbx{
+        font-size: 19px;
+    }
+    /* tulisan di home index  */
+    h1.jud2{
+        font-size: 16px;
+    }
+    /* pembungkus kalimat di index home awal  */
+    div#home{
+        font-size: 9px;
+    }
+    /* pembungkus data api di index  */
+    div.objek{
+        font-size: 12px;
+    }
+    /* judul di favorite  */
+    p.ttfav{
+        font-size: 13px;
+    }
+    /* hasil search  */
+    h3#searchResultsMessage{
+        font-size: 18px;
+    }
+    /* judul di display games  */
+    p.gtw{
+        font-size: 12px;
+    }
+    /* pembungkus di datee  */
+    div#isian{
+        padding: 30% 0 3%;
+    }
+    /* tampungan kata get di datee */
+    div.creatt{
+        margin: 0 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    /* logo di header  */
+    .lgo{
+        width: 20px;
+        margin: 0 0 0 10px;
+    }
+    /* judul header  */
+    h1.jud{
+        font-size: 18px;
+    }
+    /* menu toggle  */
+    .menu-toggle span{
+        width: 30px;
+        height: 3px;
+    }
+    /* inputan di login  */
+    input.inpt, input.inpt1{
+        height: 15px;
+        width: 90%;
+        padding-left: 2px;
+    }
+    /* di login  */
+    input::placeholder{
+        font-size: 10px;
+    }
+    /* di login  */
+    input[type="submit"]{
+        font-size: 10px;
+        width:95%;
+    }
+    div.creatt{
+        width: 3%;
+        height: auto;
+        margin: 0 0 0 11px;
+    }
+
+}

@@ -1,0 +1,217 @@
+/* pengaturan games.html  */
+
+/* pengaturan tambahan untuk search  */
+.cari{
+    padding: 140px 0 0;
+}
+.hiddsrc{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+#searchResultsMessage{
+    font-size: 30px;
+    margin: 3px 30px 5px;
+    color:#06314e;
+    letter-spacing: 1px;
+}
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+/* start section */
+
+/* categori  */
+.judcatt{
+    padding:8% 2% 1%;
+    font-size: 30px;
+    text-align: center;
+    color:#06314e;
+}
+.klkctt, .klkcrr, .klkst, .klksp{
+    background-color: rgb(198, 195, 195);
+    width: max-content;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color:#09436a;
+}
+.klkctt:hover, .klkcrr:hover, .klkst:hover, .klksp:hover{
+    background-color: #09436a;
+    color: rgb(198, 195, 195);
+}
+.dvctt:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color:#4682A9;
+    color: aliceblue;
+
+}
+.categ{
+    display: flex;
+}
+.kett{
+    padding: 1% 4%;
+    font-size: 23px;
+    color:#09436a;
+}
+.claj,.clajB,.clajC,.clajD{
+    display: none;
+}
+
+/* tampung data yang muncul di games  */
+.judList{
+    font-size: 30px;
+    text-align: center;
+    padding:1% 2% 1%;
+    color:#06314e;
+}
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+#catt, #cdd, #stt, #spp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dvLii, .dvctt{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    color: #333333;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+/* untuk di datee.html  */
+#isian{
+    display: flex;
+    font-family: sans-serif;
+    padding: 8% 0 3%;
+    margin: 0;
+    color:#06314e;
+}
+.magss{
+    width: 99%;
+    height: auto;
+    border-radius: 8px;
+}
+.lagii{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.titt{
+    font-size: 50px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #27333f;
+
+}
+.lagiiA{
+    width: 90%;
+    height: 73%;
+    text-align: start;
+    font-size: 22px;
+    padding: 5%;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+span.agus{
+    font-size: 50px;
+}
+span.agus.favorite{
+    color: blue;
+}
+span.agus:hover{
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.diveyy{
+    width: max-content;
+    padding: 3% 0;
+    font-size: 23px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }    
+.divey{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.tampung{
+    display: flex;
+    justify-content: end;
+    padding: 14px 0 0 10px;
+    width: 100%;
+    height: auto;
+}
+.creatt{
+    background-color:#4682A9;
+    padding: 2px 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Impact;
+    margin: 9px 40px;
+    color: white;
+}
+.creatt:hover{
+    background-color: white;
+    color: #4682A9;
+    cursor: pointer;
+}
+
+
+/* untuk di fav.html  */
+#bukk{
+    padding:10% 1.5% 1%;
+}
+#favorites{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+h1.hii{
+    letter-spacing: 2.5px;
+    color: #27333f;
+}
+.favorite-game{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    color: #333333;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.favorite-game:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color:#4682A9;
+    color: aliceblue;
+}
+
+ /* untuk footer di datee.html dan fav.html  */
+.ftft, #ftdtt{
+    margin: 30% 0 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
